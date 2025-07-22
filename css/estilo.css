@@ -284,16 +284,16 @@ width: 200px;
 .flecha{
 
     margin-right: -35%;
-   width: 80%;
-   height: 200%;
+   width: 0%;
+   height: 0%;
    text-shadow: 18px 12px 20px red;
     
 }
 .flecha1{
 
     margin-left: -75%;
-       width: 80%;
-   height: 200%;
+       width:0%;
+   height: 0%;
    text-shadow: 18px 12px 20px red;
     
 }
