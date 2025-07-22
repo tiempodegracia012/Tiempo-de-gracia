@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Gruppo&family=Marmelad&family=Protest+Strike&display=swap" rel="stylesheet">
-<link rel="icon" href="img/copia.ico">
+<!-- <link rel="icon" href="img/copia.ico"> -->
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Gruppo&family=Marmelad&family=Protest+Strike&display=swap');
@@ -29,7 +29,7 @@
 </head>
 
 
-<body style="background-image:url(img/consola.jpg) ; background-repeat: no-repeat; width: 97%; background-attachment: fixed; align-content: center;">
+<body style="background-image:url(img/consola.jpg) ; background-repeat: no-repeat; width: 97%;margin-left: ; background-attachment: fixed; align-content: center;">
 
 
 
@@ -59,19 +59,19 @@
     
 
     <div  style="height:200px; ">
-      <img src="img/online.gif " width="120%" height="100%" style="margin-left: -7.5%; margin-top: -10%; margin-bottom: 5%;" >
+      <img src="img/online.gif "  width="120%" height="100%" style="margin-left: -7.5%; margin-top: -10%; margin-bottom: 5%;" >
     </div>
     <!-- <h1 style="font-size:48px;">FM RADIO</h1> -->
 
 
 
-
+type="audio/mpeg"
 
 <div style="background-image:url(img/gloria.gif);  width:150%;"class="gif">
   <img src="" >
-          <iframe class="radio" 
+          <iframe  controls class="radio" 
                 width="100%" height="150" 
-                src="https://streaming6.locucionar.com:2020/AudioPlayer/tiempodegracia?mount=&" border="0" style="red;opacity: 0.8;">
+                src="https://streaming6.locucionar.com:2020/AudioPlayer/tiempodegracia?mount=&" controls autoplay type="audio/mpeg" volume="auto" border="0" style="red;opacity: 0.8;">
            
         </iframe>
 </div>
@@ -96,19 +96,22 @@
 
         <br><br>
 
-          <nav class="navbar navbar-expand-lg bg-body-tertiary opacity-100 "style="width: 120%; background-image:url(img/rrr.avif) ; height: 110px; margin-bottom: -18%;margin-bottom: -6%; margin-left: -1%; margin-right: -0%;" >
+          <nav class="navbar navbar-expand-lg bg-body-tertiary opacity-100 "style="width: 120%; background-image:url(img/rrr.avif) ; height: 110px; margin-bottom: 20%;margin-bottom: -6%; margin-left: -1%; margin-right: -0%;" >
 
-              <img class="imi" src="img/radio.jpg" height="50px" width="50px">
 
-              <h4><a class="navbar-brand " href="index.html" style="color: #bed0d7; font-size: 25px; margin-left: -3%; paddin-top: 20px;">TIEMPO DE GRACIA</a></h4>
-
-              <button class="oy navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <button class="oy navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon bi bi-filter-left"></span> -->
 
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="35" fill="currentColor" class="oy2 bi bi-filter-left" viewBox="0 0 16 16" >
               <path d="M2 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
             </svg>
+
+              
+
+
+
               </button>
+
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 
@@ -117,7 +120,7 @@
                    
 
                      <li class="nav-item">
-                       <a class="nav-link disabled" aria-disabled="true">I.E.P.C.E.R - RNC: 1994</a>
+                       <a class="nav-link disabled" aria-disabled="true" style="color:#070459;">I.E.P.C.E.R - RNC: 1994</a>
                      </li>
 
                      <li class="nav-item">
@@ -130,28 +133,44 @@
                         Dias de reuniones
                        </a>
                       <ul class="dropdown-menu dias">
-                        <li><a class="dropdown-item " style="color:white" href="#">Miercoles - 19:30hs</a></li>
-                        <li><a class="dropdown-item " style="color:white" href="#">Sabado - 19:30hs</a></li>
+                        <li><a class="dropdown-item " style="color:black;" href="#">Miercoles - 19:30hs - Culto general</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item " style="color:white" href="#">Domingo - 9:30hs</a></li>
+                        <li><a class="dropdown-item " style="color:black;" href="#">Jueves - 19:00hs -  Oración</a></li>
+                        <li><a class="dropdown-item " style="color:black;" href="#">Jueves - 20:00hs - Reunión de damas</a></li>
+
+                        <li><hr class="dropdown-divider"></li>
+
+
+                        <li><a class="dropdown-item " style="color:black;" href="#">Sábado - 16:30hs - Escuela Bíblica</a></li>
+                        <li><a class="dropdown-item " style="color:black;" href="#">Sábado - 18:00hs - Reunión pre-adolecentes</a></li>
+                        <li><a class="dropdown-item " style="color:black;" href="#">Sábado - 19:30hs - Culto general</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item " style="color:black" href="#">Domingo - 9:30hs - Culto general</a></li>
+
                       </ul>
                    </li>
 
+                </ul>
                    <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" style="background-color: black; color: white; width: 70%;" />
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" style="background-color: #3d3735; color: #ffffff; width: 68%; font-weight: bold; margin-left: 3%;" />
                     <button class="btn btn-success" type="submit">Buscar</button>
                    </form>
-                </ul>
 
               </div>
-
+                            <h4><a class="navbar-brand " href="index.html" style=" color: white;-webkit-text-stroke: 0.5px grey; text-shadow: 5px 8px 5px red; font-size: 20px; margin-left: 10%;margin-bottom: 40%; ">FM TIEMPO DE GRACIA</a></h4>
+<img class="imi" src="img/radio.jpg" height="55px" width="55px">
         </nav>  </div>                              
   </div>
              <iframe ></iframe>
-      <button style="background-color: red;opacity: 0; height: 171px;"  aria-label="Play / Pause"><svg  aria-hidden="true" focusable="false" data-prefix="fas" ></svg> <!---->d</button>                               
+      <button style="background-color: red;opacity: 0; height: 171px;"  aria-label=""><svg  aria-hidden="" focusable="" data-prefix="fas" ></svg> <!----></button>                               
 
     <!-- Example Code End -->
     <!-- Example Code End -->
+
+    <div style="height:300%; background-color: #3b3330;opacity: 0.1;"><img src="img/logo.png.jpg" height="50%" width="120%" style="margin-left: -20%; margin-top: -10%;"> 
+      <p class="parrafoIglesia"  >IGLESIA EVANGELICA PENTECOSTAL CRISTO EL REY </p>
+      
+    </div>
 
 <div class="row">
 
@@ -211,66 +230,6 @@
 
 
 
-<!--             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <div class="carousel-indicators">
-
-
-
-
-
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-
-            <br>
-            <div class="carousel-inner"   >
-
-
-
-        <div class="carousel-item active container" style=" width: 95vw; max-width: 1000px;min-width: 510px;">
-
-                    <img class="img container" src="img/iglesia.jpg" height="100%" width="100%">
-
-                <svg aria-label="Placeholder: First slide" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" height="150" preserveAspectRatio="xMidYMid slice" role="img" width="800" xmlns="http://www.w3.org/2000/svg"><<title>Placeholder/title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em"> First slide</text></svg>
-
-              </div>
-
-       <div class="carousel-item container" style=" width: 95vw; max-width: 1000px;min-width: 510px;">
-
-                <img class="img1 container" src="img/temploagua.jpg" height="100%" width="100%">
-
-
-              </div>
-
-        <div class="carousel-item container" style=" width: 95vw; max-width: 1000px;min-width: 510px;">
-
-                    <img class="img1 container" src="img/Baba.jpg" height="100%" width="100%">
-
-
-                <div class="carousel-caption d-none d-md-block">
-                  
-                  <h2>Proximamente - Gran Cruzada de Poder, Fe y Milagros...</h2>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon flecha1" aria-hidden="true"></span>
-              <span class="visually-hidden ">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon flecha" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-
-
-
-          <i class="bi bi-chat-dots-fill"></i>
-            </button>
-
-          </div> 
-        </div>
-      </div>
- -->
 
              
 
@@ -293,7 +252,10 @@
 
 <div class="container-fluid">
   <div class="row">
-
+    <div style="background-color:#390f02; height: 60px; margin-bottom: 10%;border-radius: 3%;">
+      <h2 style="font-size:32px;text-align: center; margin-bottom: 10%; ba">Libreria de Youtube</h2>
+      
+    </div>
 
     <div class="col-md-4 col-sm-8"> 
                 <div class="card container rr" style="width: 75%; height: 84%;">    
