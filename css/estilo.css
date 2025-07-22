@@ -1,4 +1,7 @@
-.rudi{
+.red{
+
+}
+    .rudi{
 
       margin-left: 85%;
       margin-top: -32%;
@@ -17,7 +20,8 @@ display: inline-block;
 
 
 .oy{
-    background-color: #cee5e8;
+    background-color: white;
+    margin-left: -10%;
 }
 .oy2{
     color:#9e210a;
@@ -30,21 +34,24 @@ nav{
 }
 
 .radio{
-    margin-left: -3%;
+    margin-left:0.8%;
     font-size: 5px;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 
 }
 
 
 .gif{
-    height:130px;
-    width: 85%;
-    margin-left: 8%;
-    margin-bottom: 3%;
-    background-color: #052e50;  
-    opacity: 0.8; 
-    border-radius: 45%;
+    height:180px;
+    width:100%;
+    margin-left: -2.8%;
+    margin-right: -9    0%;
+    margin-bottom: 5%;
+    background-color: ;  
+    
+    border: none; 
+    margin-bottom: 0.5% ;
+    
 
 
 }
@@ -127,7 +134,7 @@ a{
     float: center;
 
     opacity: 1;
-    margin-left: 3%;
+    margin-left: %;
     height: 50% ;
 }
 .img {
@@ -224,6 +231,7 @@ footer{
 }
 
 .lov{
+
     width: 100%;
     background-color: #252325;
 opacity: 0.9; 
