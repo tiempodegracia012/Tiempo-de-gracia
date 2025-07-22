@@ -1,3 +1,14 @@
+
+
+.parrafoIglesia{
+    font-family: "Gruppo", sans-serif;
+    position: fixed;
+
+    font-weight: bold;
+    font-size:30px; 
+    color: white; 
+    text-align: center;
+}
 .red{
 
 }
@@ -20,11 +31,13 @@ display: inline-block;
 
 
 .oy{
-    background-color: white;
-    margin-left: -10%;
+    background-color: #0d3452;
+    width: 47px;
+    height: 47px;
+    margin-left: 1%;
 }
 .oy2{
-    color:#9e210a;
+    color:#b3d5c6;
 
 }
 
@@ -50,7 +63,7 @@ nav{
     background-color: ;  
     
     border: none; 
-    margin-bottom: 0.5% ;
+    margin-bottom: 4% ;
     
 
 
@@ -178,7 +191,8 @@ a{
 .imi{
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-    margin-right: 2%;
+    margin-right: 1%;
+    margin-left: 3%;
 }
 
 
@@ -251,7 +265,7 @@ opacity: 0.9;
 }
 
 .dias{
-    background-color: #626a84;
+    background-color: #4683a2;
 }
 .dias2{
     
