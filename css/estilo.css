@@ -33,11 +33,13 @@ display: inline-block;
 .oy{
     background-color: #0d3452;
     width: 47px;
-    height: 47px;
+    height: 40px;
     margin-left: 1%;
 }
 .oy2{
     color:#b3d5c6;
+    margin-left: -50%;
+    margin-top: -30%;
 
 }
 
